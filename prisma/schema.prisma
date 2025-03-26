@@ -1,0 +1,21 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-py"
+  recursive_type_depth = 2
+  interface = "sync"
+  enable_experimental_decimal = true 
+}
+
+model StockData {
+  id       Int      @id @default(autoincrement())
+  datetime DateTime @unique
+  open     Decimal
+  high     Decimal
+  low      Decimal
+  close    Decimal
+  volume   Int
+}
