@@ -57,9 +57,9 @@ This project is a stock analysis tool that includes APIs for stock-related data,
 - **GET /strategy/performance** - Get strategy performance
 
 ## Screenshots
--API Endpoints Screenshots
+###API Endpoints Screenshots
 ![Demo Image](asset/demo1.png)
 ![Demo Image](asset/demo2.png)
 ![Demo Image](asset/demo3.png)
--Test Result Screenshots
+###Test Result Screenshots
 ![Demo Image](asset/demo4.png)
